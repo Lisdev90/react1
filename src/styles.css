@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 18px;
+  background-color: bisque;
+}
+
+h1 {
+  max-width: 940px;
+  font-size: 2.5em;
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 40px 0;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contenedor-pueblo {
+  min-height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.contendor-texto-pueblo {
+  width: 1170px;
+  height: 368px;
+  margin: 10px 10px 10px;
+  display: flex;
+  align-items: center;
+}
